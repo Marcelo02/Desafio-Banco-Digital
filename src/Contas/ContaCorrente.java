@@ -1,3 +1,6 @@
+package Contas;
+
+import Clientes.Cliente;
 
 public class ContaCorrente extends Conta {
 
@@ -5,9 +8,8 @@ public class ContaCorrente extends Conta {
 		super(cliente);
 	}
 
-	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Corrente ===");
+		System.out.println("=== Extrato contas.Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
 	
